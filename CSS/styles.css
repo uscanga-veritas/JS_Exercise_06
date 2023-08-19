@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aquamarine;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+section {
+    height: 33vh;
+    width: 33vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    justify-content: center;
+    align-items: center;
+    background-color: violet;
+    border: 12px solid white;
+}
+
+.man, .woman {
+    background-color: tomato;
+}
+
+.titulo, .sec {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    background-color: slategrey;
+    height: 20%;
+    width: auto;
+}
+
+.sec {
+    background-color: violet;
+    height: 10%;
+    width: auto;
+}
+
+.imagenes {
+    background-color: yellowgreen;
+    display: flex;
+    height: 50%;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+.man, .woman {
+    height: 100%;
+    width: 25%;
+    background-color: tomato;
+}
+
+.iPedro, .iJuana {
+    height: 80%;
+    width: 100%;
+}
+
+.tPedro, .tJuana {
+    height: 20%;
+    width: 100%;
+}
+
+.tJuana, .tPedro p {
+    color: whitesmoke;
+}
+
+.boton {
+    height: 20%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    border-radius: 10%;
+    height: 60%;
+    width: 80px;
+}
+
+dialog {
+    border: none;
+    padding: 1rem;
+    background-color: white;
+}
